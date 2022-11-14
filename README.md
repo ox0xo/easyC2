@@ -22,6 +22,7 @@ pip install requests
 
 ## How to setup
 
+
 Generate an RSA private key (private.pem) and a public key (public.pem) and place them in the same folder as `server.py`. Note that encrypted keys with passphrase cannot be used.
 
 This key is used to encrypt the message exchange between you and the victim. Please be aware that any leaks will increase the likelihood of detection by the security personnel of the victim's organization. We recommend that you recreate the key every time you start a campaign.
